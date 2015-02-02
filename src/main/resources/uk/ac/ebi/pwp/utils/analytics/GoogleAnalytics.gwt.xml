@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <!-- Inherit the core Web Toolkit stuff.                        -->
+    <inherits name='com.google.gwt.user.User'/>
+
+    <!-- Google Analytics javascript file                           -->
+    <script src="http://www.google-analytics.com/ga.js"/>
+
+    <source path="client" />
+</module>
