@@ -7,12 +7,12 @@
     <groupId>uk.ac.ebi.pwp.utils</groupId>
     <artifactId>analytics</artifactId>
     <packaging>jar</packaging>
-    <version>0.1</version>
+    <version>0.2.0</version>
     <name>Google Analytics</name>
 
     <properties>
         <!-- Convenience property to set the GWT version -->
-        <gwtVersion>2.5.1</gwtVersion>
+        <gwtVersion>2.7.0</gwtVersion>
 
         <!-- This GWT  app needs at least java 1.6 -->
         <maven.compiler.source>1.6</maven.compiler.source>
@@ -33,18 +33,6 @@
             <version>${gwtVersion}</version>
             <scope>provided</scope>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>com.google.gwt</groupId>-->
-            <!--<artifactId>gwt-dev</artifactId>-->
-            <!--<version>${gwtVersion}</version>-->
-            <!--&lt;!&ndash;<scope>provided</scope>&ndash;&gt;-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>junit</groupId>-->
-            <!--<artifactId>junit</artifactId>-->
-            <!--<version>4.7</version>-->
-            <!--<scope>test</scope>-->
-        <!--</dependency>-->
     </dependencies>
 
     <build>

@@ -3,8 +3,8 @@
     <!-- Inherit the core Web Toolkit stuff.                        -->
     <inherits name='com.google.gwt.user.User'/>
 
-    <!-- Google Analytics javascript file                           -->
-    <script src="http://www.google-analytics.com/ga.js"/>
+    <!-- Google Universal Analytics javascript file                 -->
+    <script src="http://www.google-analytics.com/analytics.js"/>
 
     <source path="client" />
 </module>
