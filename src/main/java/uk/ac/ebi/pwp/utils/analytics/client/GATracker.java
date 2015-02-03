@@ -19,6 +19,7 @@ public class GATracker {
      */
     public static native void setAccount(String accountID, String domain) /*-{
         $wnd.ga('create', accountID, 'auto', {'legacyCookieDomain': domain});  // Replace with your property ID.
+        $wnd.ga('send', 'pageview', {'sessionControl': 'start'});
     }-*/;
 
     /**
@@ -49,7 +50,7 @@ public class GATracker {
      * @param label 	- 	An optional string to provide additional dimensions to the event data.
      */
     public static native void trackEvent(String category, String action, String label) /*-{
-        $wnd.ga('send', 'event', category, action, label, $wnd.opt_value, {'nonInteraction': 1});
+        $wnd.ga('send', 'event', category, action, label);
     }-*/;
 }
 
