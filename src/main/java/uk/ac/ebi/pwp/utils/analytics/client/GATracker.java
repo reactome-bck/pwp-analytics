@@ -19,7 +19,7 @@ public class GATracker {
      */
     public static native void setAccount(String accountID, String domain) /*-{
         $wnd.ga('create', accountID, 'auto', {'legacyCookieDomain': domain});  // Replace with your property ID.
-        $wnd.ga('send', 'pageview', {'sessionControl': 'start'});
+        $wnd.ga('send', 'pageview');
     }-*/;
 
     /**
