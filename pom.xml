@@ -7,7 +7,7 @@
     <groupId>uk.ac.ebi.pwp.utils</groupId>
     <artifactId>analytics</artifactId>
     <packaging>jar</packaging>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <name>Google Analytics</name>
 
     <properties>
