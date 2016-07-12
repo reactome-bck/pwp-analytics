@@ -1,4 +1,4 @@
-package uk.ac.ebi.pwp.utils.analytics.client;
+package org.reactome.web.utils.analytics.client;
 
 /**
  * Tracker - Google Universal Analytics
